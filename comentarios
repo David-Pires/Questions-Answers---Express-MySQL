@@ -1,0 +1,39 @@
+
+
+
+<!-- index.ejs -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guia de Perguntas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css"  />
+  </head>
+  <body>
+    <h1>Guia perguntas!</h1>
+    <hr />
+    <h2>Saiba mais</h2>
+
+    <p>Nome:<%= nome %></p>
+    <p>Empresa:<%= empresa %></p>
+    <p>Linguagem:<%= lang %></p>
+
+    <% if(msg) { %>
+      <h3>Condição verdadeira</h3>
+    <%} else { %>
+      <h3>Condição é falsa</h3>
+    <%}%>
+
+    <% objetos.forEach(function(objetos) { %>
+      <hr>
+      <h4>Forma: <%=objetos.forma%> </h4>
+      <h4>Cor: <%=objetos.cor%> </h4>
+      <h4>Quantidade: <%=objetos.qtd%> </h4>
+    <% }) %>
+      
+  </body>
+</html>
+
+-->
