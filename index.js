@@ -19,7 +19,7 @@ aplicacao.use(express.static("public"));
 
 //body parser
 aplicacao.use(bodyParser.urlencoded({extended: false}))
-aplicacao.use(bodyParser.json())
+aplicacao.use(bodyParser.json(err))
 
 
 aplicacao.get("/", (req, res) => {
